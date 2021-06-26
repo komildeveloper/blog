@@ -47,6 +47,12 @@ yay -S neovim-git
 
 ## Uninstall Neovim
 
+```
+sudo rm -rf /usr/local/bin/nvim
+```
+
+## Uninstall config, plugins and caches
+
 Delete the config folder
 
 ```
