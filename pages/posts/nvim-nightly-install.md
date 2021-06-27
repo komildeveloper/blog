@@ -1,9 +1,9 @@
 ---
 title: Install Neovim Nightly
-date: 2021/06/26
+date: 2021/6/26
 description: Install Neovim Nightly 0.5.0 version | Arch Linux, Ubuntu&Debian and more
 tag: neovim
-author: You
+author: komildeveloper
 ---
 
 # Install Neovim Nightly 0.5.0 version
