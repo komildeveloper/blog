@@ -97,12 +97,11 @@ touch ~/.config/nvim/keys/mappings.vim
 Following to mappings.vim
 
 ```
-" Use alt + hjkl to resize windows
 " resize windows w/ ctrl&arrow keys
-nnoremap <C-Down>    :resize -1<CR>
-nnoremap <C-Up>  :resize +1<CR>
-nnoremap <C-Right>  :vertical resize -2<CR>
-nnoremap <C-Left> :vertical resize +2<CR>
+nnoremap <silent> <C-Down>    :resize -1<CR>
+nnoremap <silent> <C-Up>  :resize +1<CR>
+nnoremap <silent> <C-Right>  :vertical resize -2<CR>
+nnoremap <silent> <C-Left> :vertical resize +2<CR>
 
 " I hate escape more than anything else
 inoremap jk <Esc>
