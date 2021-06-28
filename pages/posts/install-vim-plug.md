@@ -1,7 +1,7 @@
 ---
 title: Install vim-plug for Neovim
 date: 2021/6/28
-description: Install minimalist Vim plugin manager - vim-plug
+description: Install and Setting up vim-plug for neovim
 tag: neovim
 author: komildeveloper
 output:
