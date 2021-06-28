@@ -28,7 +28,6 @@ body {
 b,
 strong,
 h3,
-h4,
 h5,
 h6 {
   font-variation-settings: 'wght' 650;
@@ -38,6 +37,21 @@ h1 {
 }
 h2 {
   font-variation-settings: 'wght' 750;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+p {
+  font-weight: 200;
+  font-size: 17px;
+}
+
+ul {
+  font-weight: 100;
+  font-size: 17px;
 }
 
 @media screen and (min-device-pixel-ratio: 1.5),
