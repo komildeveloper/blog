@@ -53,6 +53,7 @@ Following to **plugins.vim**
 
 ```
 " Automatic installation
+let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '~/.config/nvim/autoload/plugged'))
   silent execute '!curl -fLo '.data_dir.'~/.config/nvim/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
