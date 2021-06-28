@@ -46,7 +46,7 @@ Create **vim-plug** folder and **plugins.vim** file
 
 ```
 mkdir ~/.config/nvim/vim-plug
-touch ~/.config/nvim/plug/plugins.vim
+touch ~/.config/nvim/vim-plug/plugins.vim
 ```
 
 Following to **plugins.vim**
