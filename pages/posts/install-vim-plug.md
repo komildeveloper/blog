@@ -1,7 +1,7 @@
 ---
 title: Install vim-plug for Neovim
 date: 2021/6/28
-description: Install and Setting up vim-plug for neovim
+description: Install and Setting up vim-plug for Neovim
 tag: neovim
 author: komildeveloper
 output:
