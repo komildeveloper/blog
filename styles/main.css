@@ -33,7 +33,7 @@ h6 {
   font-variation-settings: 'wght' 650;
 }
 h1 {
-  font-variation-settings: 'wght' 850;
+  font-variation-settings: 'wght' 550;
 }
 h2 {
   font-variation-settings: 'wght' 750;
@@ -46,12 +46,12 @@ h4 {
 
 p {
   font-weight: 200;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 ul {
   font-weight: 100;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 @media screen and (min-device-pixel-ratio: 1.5),
