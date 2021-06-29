@@ -40,7 +40,7 @@ Reload nvim & **:PlugInstall**
 
 ```
 mkdir ~/.config/nvim/themes
-touch ~/.config/nvim/theme/onedark.vim
+touch ~/.config/nvim/themes/onedark.vim
 ```
 
 ### Step 3
