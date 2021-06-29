@@ -37,7 +37,7 @@ mkdir ~/.config/nvim/plug-config
 touch ~/.config/nvim/plug-config/coc.vim
 ```
 
-coc.nvim config [link](https://github.com/neoclide/coc.nvim) - **coc.vim** fayliga qo'shib qo'ying
+coc.nvim config [link](https://github.com/neoclide/coc.nvim) - **coc.vim** fayliga qo'shib qo'yamiz
 
 Va quyidagi manbani **init.vim** fayliga qo'shib qo'yamiz
 
@@ -47,7 +47,7 @@ source $HOME/.config/nvim/plug-config/coc.vim
 
 ### Step 3
 
-Coc.nvim bilan Neovim-ga extension o'rnatib ko'ramiz
+Coc.nvim bilan Neovim-ga extension o'rnatamiz
 ```
 :CocInstall coc-json coc-tsserver coc-vimlsp
 ```
@@ -72,7 +72,7 @@ O'rnatilgan extension-lar ro'yaxatini olish
 
 ### Step 4
 **:CocConfig** sizga coc-settings.json faylini yaratib beradi
-Quyidagilarni coc-settings.json fayliga qo'shib qo'ying
+Quyidagilarni coc-settings.json fayliga qo'shib qo'yamiz
 ```
 "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "python"]
 ```
