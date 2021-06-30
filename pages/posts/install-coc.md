@@ -89,7 +89,7 @@ Extension-ni o'rnatish
 **:CocInstall coc-css**
 
 Extension-ni o'chirish
-**":CocUninstall coc-css**
+**:CocUninstall coc-css**
 
 O'rnatilgan extension-lar ro'yaxatini olish
 **:CocList extensions**
