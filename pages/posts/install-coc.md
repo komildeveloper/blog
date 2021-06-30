@@ -16,6 +16,21 @@ author: komildeveloper
 
 # Step by step
 
+**ESLATMA:** coc.nvim TypeScript-da yozilgan va Node.js bilan ishlaydi
+
+- Shunday ekan bizda **Node.js** bo'lishi kerak
+
+### Requirements
+- nodejs 12.12
+- neovim 0.3.2
+- vim 8.0.1453
+
+### Install Nodejs 
+
+Nodejs-ni o'rnatish uchun [link](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
+
+---
+
 ### Step 1
 **coc.nvim** pluginini o'rnatish uchun quyidagi pluginni **plugins.vim** qo'shib qo'yamiz 
 
@@ -26,6 +41,15 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Or build from source code by using yarn: https://yarnpkg.com
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+```
+
+Yarn orqali o'rnatish uchun
+```
+Arch Linux
+npm i -g yarn
+
+Ubuntu
+sudo npm i -g yarn
 ```
 
 Reload nvim & **:PlugInstall**
@@ -74,7 +98,9 @@ O'rnatilgan extension-lar ro'yaxatini olish
 **:CocConfig** sizga coc-settings.json faylini yaratib beradi
 Quyidagilarni coc-settings.json fayliga qo'shib qo'yamiz
 ```
-"coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "python"]
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "python"]
+}
 ```
 
 ---
